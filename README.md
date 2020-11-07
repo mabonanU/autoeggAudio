@@ -2,7 +2,7 @@
 
 ## 概要
 卵を自動孵化し、色違いを厳選します。<br>
-Raspberry Pi Zero WとUSBケーブル1本の構成で実現します。<br>
+画像ではなく音声で認識するのでキャプチャボード不要です。<br>
 (2020/11/7現在の最新バージョンで動作確認済。 Raspberry Pi Imager:1.4 OS:2020-08-20-raspios-buster-armhf-lite)<br>
 
 ## 準備するもの
@@ -18,7 +18,6 @@ OSインストール後、Wifi接続でsshできるようになったら、cmdli
 ```sh
 $ sudo vi /boot/cmdline.txt
 ```
-<br>
 
 ### Raspberry Piをプロコン&USBオーディオとして認識させる設定
 参考：[UAC GadgetでNintendo Switchの音声出力をRaspberry Piに取り込む](https://mzyy94.com/blog/2020/04/17/nintendo-switch-audio-uac-gadget/)<br>
@@ -58,6 +57,7 @@ $ chmod u+x autoegg
 $ wget https://raw.githubusercontent.com/mabonanU/autoeggAudio/main/run_autoegg.sh
 $ chmod u+x run_autoegg.sh
 ```
+<br>
 
 ## ゲーム側の準備
 ### 各種設定を変更
@@ -86,6 +86,7 @@ $ chmod u+x run_autoegg.sh
 ### ゲームの進度
 - 自転車のダッシュをMAX強化済み
 - 光るお守り入手済み(推奨)
+<br>
 
 ## 自動厳選実行
 SwitchのUSBポートに接続し実行。10秒ほど待つと自動操作が始まります。<br>
@@ -98,7 +99,7 @@ $ sudo ./run_autoegg.sh
 - 空を飛ぶ
 - 産まれたポケモンを逃がす<br>
 の1サイクルが問題なく進むことを確認してください。<br>
-
+<br>
 
 ## 注意事項
 ツールの使用は自己責任でお願いします。
