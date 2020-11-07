@@ -4,6 +4,11 @@
 卵を自動孵化し、色違いを厳選します。<br>
 画像ではなく音声で認識するのでキャプチャボード不要です。<br>
 <br>
+### 使用ライブラリ
+- [nscon](https://github.com/mzyy94/nscon)
+- [portaudio](https://github.com/gordonklaus/portaudio)
+- [go-dsp](https://github.com/mjibson/go-dsp)
+<br>
 
 ## 準備するもの
 ・Raspberry Pi Zero W/WH（未確認だが、USB On-The-Go対応デバイスならいける？）<br>
