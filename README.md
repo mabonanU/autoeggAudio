@@ -3,6 +3,7 @@
 ## 概要
 卵を自動孵化し、色違いを厳選します。<br>
 画像ではなく音声で認識するのでキャプチャボード不要です。<br>
+![](https://github.com/mabonanU/autoeggAudio/blob/readmeimages/intro.gif)
 <br>
 ### 使用ライブラリ
 - [nscon](https://github.com/mzyy94/nscon)
@@ -83,7 +84,7 @@ $ chmod u+x run_autoegg.sh
 - 右隣のボックスは十分(5枠以上)空けておく　※ここに色違いポケモンが格納される
 ![](https://github.com/mabonanU/autoeggAudio/blob/readmeimages/box_sub.jpg)
 
-### 主人公の場所、状態
+### 主人公
 - 5番道路で自転車に乗っておく
 
 ### 預かり屋
@@ -106,6 +107,10 @@ $ sudo ./run_autoegg.sh
 - 産まれたポケモンを逃がす<br>
 の1サイクルが問題なく進むことを確認してください。<br>
 <br>
+
+## 結果
+メッソンゲット！<br>
+![](https://github.com/mabonanU/autoeggAudio/blob/readmeimages/sobbleget.jpg)
 
 ## 注意事項
 ツールの使用は自己責任でお願いします。
