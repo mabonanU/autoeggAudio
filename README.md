@@ -12,7 +12,7 @@
 <br>
 
 ## 準備するもの
-・Raspberry Pi Zero W/WH（未確認だが、USB On-The-Go対応デバイスならいける？）<br>
+・Raspberry Pi Zero W/WH　※USB On-The-Go対応のLinux環境があれば何でも良い？(未確認)<br>
 (2020/11/7現在の最新バージョンで動作確認済。 Raspberry Pi Imager:1.4  OS:2020-08-20-raspios-buster-armhf-lite)<br>
 ・USB A-MicroB データ転送用ケーブル<br>
 ・WifiでRaspberry piにssh接続できる環境<br>
